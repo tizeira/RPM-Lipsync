@@ -8,7 +8,7 @@ function App() {
   /**
    * Add apikey and character id here
    */
-  const { client } = useConvaiClient('characterId', 'apikey');
+  const { client } = useConvaiClient('12313f00-d363-11ef-bad2-42010a7be016', '3ab3c81bdafa6885f2f578841ec9095a');
   return (
     <>
       <KeyboardControls
