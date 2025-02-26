@@ -5,9 +5,10 @@ import { useConvaiClient } from './hooks/useConvaiClient';
 import ChatBubble from './components/chat/Chat';
 
 function App() {
-  /**
-   * Add apikey and character id here
-   */
+// Replace 'YOUR_CONVAI_API_KEY' and 'YOUR_CHARACTER_ID' with your Convai API key and character ID
+const convaiApiKey = '3ab3c81bdafa6885f2f578841ec9095a';
+const characterId = '12313f00-d363-11ef-bad2-42010a7be016';
+  
   const { client } = useConvaiClient('characterId', 'apikey');
   return (
     <>
